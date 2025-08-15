@@ -7,7 +7,7 @@
   margin: 0;
   border: 0;
   outline: 0;
-  background-color: inherit;
+  background-color:	inherit;
   color: inherit;
   font-family: inherit;
   font-size: inherit;
@@ -31,7 +31,7 @@ body {
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
-  --clr-primary: #2978b5;
+  --clr-primary: #1d5b8a;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -97,6 +97,30 @@ button {
     font-size: 2.6rem;
   }
 }
+
+.cute-skillz__badges {
+  list-style: none;
+  padding: 0;
+}
+
+.cute-skillz__badges li {
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin: 6px 0;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.cute-skillz__badges li:hover {
+  transform: scale(1.03);
+  background: inherit;
+}
+
+.cute-skillz__badges span {
+  display: inline-block;
+  margin: 2px 4px;
+}
+
 
 /*===================
   buttons and links
@@ -292,7 +316,7 @@ main {
 .project {
   padding: 2em;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
 }
@@ -343,7 +367,7 @@ main {
 .footer {
   padding: 3em 0;
   margin-top: 4em;
-  text-align: center;
+  text-align: left;
 }
 
 .footer__link {
@@ -410,4 +434,5 @@ main {
   .scroll-container {
     display: none;
   }
+
 }

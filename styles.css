@@ -98,27 +98,85 @@ button {
   }
 }
 
-.cute-skillz__badges {
-  list-style: none;
-  padding: 0;
+
+
+
+
+/* ===== More Projects：按钮/卡片风格 ===== */
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
 }
 
-.cute-skillz__badges li {
+.project-card {
+  background: inherit;
+  border: 2px solid;
   border-radius: 12px;
-  padding: 10px 14px;
-  margin: 6px 0;
-  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
+  padding: 12px 16px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  margin: 10px;   
 }
 
-.cute-skillz__badges li:hover {
-  transform: scale(1.03);
+
+.project-card a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 15px;
+}
+
+.project-card strong {
+  font-weight: 700;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 10px inherit;
   background: inherit;
 }
 
-.cute-skillz__badges span {
+/* ===== Contact：让按钮对齐居中且不影响其他链接行为 ===== */
+.section.contact.center {
+  text-align: center;
+}
+
+.section.contact .btn.btn--outline {
   display: inline-block;
-  margin: 2px 4px;
+}
+
+/* ===== Skills：采用 cute-frame + 网格列表视觉 ===== */
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 10px 18px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cute-frame {
+  border: 3px dashed ;
+  border-radius: 15px;
+  padding: 18px;
+  background-color: inherit;
+}
+
+/* Skills 列表项（不要用 btn 类，防止“按钮跳转”错觉） */
+.skills .project-item {
+  background: inherit;
+  border-radius: 10px;
+  padding: 10px 12px;
+  color: inherit;
+}
+
+.skills .project-item strong {
+  font-weight: 700;
+  margin-right: 6px;
+}
+
+.skills .project-item span {
+  color: inherit;
 }
 
 
@@ -154,7 +212,7 @@ button {
 
 .link--nav {
   color: var(--clr-fg);
-  text-transform: lowercase;
+  text-transform: auto;
   font-weight: 500;
 }
 
@@ -168,7 +226,7 @@ button {
   padding: 0.8em 1.4em;
   font-weight: 500;
   font-size: 0.9rem;
-  text-transform: lowercase;
+  text-transform: auto;
   transition: transform 0.2s ease-in-out;
 }
 
@@ -437,8 +495,11 @@ main {
     margin-top: 2em;
   }
 
+  
+
   .project-cards {
-    display: grid;
+    display: block;
+    text-decoration: none; /* 去掉下划线 */
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 16px;
   }
@@ -446,7 +507,7 @@ main {
   
   .project-card a {
     text-decoration: none;
-    color: #333;
+    color: inherit;
     font-size: 15px;
   }
   
@@ -456,8 +517,8 @@ main {
   
   .project-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 4px 10px rgba(255, 150, 200, 0.25);
-    background: #fff0f8;
+    box-shadow: 0 4px 10px inherit;
+    background: inherit;
   }
   
 

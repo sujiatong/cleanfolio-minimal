@@ -15,26 +15,27 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles.css" />
-    <title>Raj Shekhar</title>
+    <title>Jiatong Su</title>
   </head>
   <body class="light" id="top">
     <header class="header center">
       <h3>
-        <a href="https://rjshkhr.github.io/cleanfolio-minimal" class="link"
-          >RS.</a
-        >
+
       </h3>
 
       <nav class="nav center">
         <ul class="nav__list center">
           <li class="nav__list-item">
-            <a class="link link--nav" href="#projects">Projects</a>
+            <a class="link link--nav" href="#projects">Feature Projects</a>
           </li>
           <li class="nav__list-item">
             <a class="link link--nav" href="#skills">Skills</a>
           </li>
           <li class="nav__list-item">
             <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#more-projects">More Projects</a>
           </li>
         </ul>
 
@@ -80,40 +81,43 @@
       </div>
 
       <!-- Projects -->
+
+      
       <section id="projects" class="section projects">
-        <h2 class="section__title">Projects</h2>
+        <h2 class="section__title">Feature Projects</h2>
 
-        <div class="projects__grid">
-          <div class="project">
-            <h3>US Utility Disconnection Dashboard</h3>
-            <p class="project__description">
-            Visualizing utility disconnection estimates arcoss different counties, 
-            which provides insights into spatial patterns of utility burden and disconnections.
-            </p>
 
-            <ul class="project__stack">
-              <li class="project__stack-item">     
-              <li class="stack-item"><strong> Tools:</strong>  R, Leaflet, JavaScript, Data Aggregation</li>
-            </ul>
-
-            <a
-              href="https://github.com/sujiatong/MUSA-Praticum-Jiatong"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://sujiatong.github.io/MUSA-Praticum-Jiatong/dashboard/index.html"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
+        <div class="project">
+          <a href="https://sujiatong.github.io/MUSA-Praticum-Jiatong/dashboard/index.html" target="_blank">
+            <img src="pdf/utility.png" alt="Utility Dashboard Preview" class="project__img">
+          </a>
+        
+          <h3>US Utility Disconnection Dashboard</h3>
+          <p class="project__description">
+            Interactive map revealing county-level utility disconnection risks across four U.S. states.
+          </p>
+        
+          <ul class="project__stack">
+            <li class="stack-item"><strong>🛠 Tools:</strong> R, Leaflet.js, JavaScript, Data Aggregation</li>
+          </ul>
+        
+          <a href="https://github.com/sujiatong/MUSA-Praticum-Jiatong" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://sujiatong.github.io/MUSA-Praticum-Jiatong/dashboard/index.html" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+        
+          
 
           
           <div class="project">
+
+            <a href="https://sujiatong.github.io/Boston_bike_dashboard/boston_bike/index.html" target="_blank">
+              <img src="pdf/boston_bike.png" alt="Boston Blue Bike Dashboard Preview" class="project__img">
+            </a>
+
             <h3>Boston Blue Bikes Dashboard</h3>
             <p class="project__description">
               Developed an interactive map of Boston Blue Bike stations with search and filter features. 
@@ -146,7 +150,14 @@
             
 
           <div class="project">
+
+            <a href="https://sujiatong.github.io/Forecast_Metro_train_delays/ppa_final.html" target="_blank">
+              <img src="pdf/NJ_delay.png" alt="NJ Delay Preview" class="project__img">
+            </a>
+
             <h3>NJ Transit Delay Prediction </h3>
+
+            
             <p class="project__description">
             Built regression models to forecast metro train delays. 
             Analyzed NJ Transit operational data and weather factors.
@@ -173,31 +184,42 @@
               <i aria-hidden="true" class="fas fa-external-link-alt"></i>
             </a>
 
+
           </div>
 
 
+          <div class="project">
+            <a href="https://sujiatong.github.io/engagement_project/frontend/index.html" target="_blank" rel="noopener noreferrer">
+              <img src="pdf/his_boundary.png" alt="Historical World Boundaries Map Preview" class="project__img">
+            </a>
+            <h3>Historical World Boundaries</h3>
+            <p class="project__description">
+              Interactive map visualizing how world borders evolved across centuries.
+            </p>
+            <ul class="project__stack">
+              <li class="stack-item"><strong>🛠 Tools:</strong> JavaScript, Leaflet.js, Historical GIS</li>
+            </ul>
 
-          <div class="projects__grid">
-            <div class="project">
-              <h3>LLMs for Sentiment Analyzing and image reasoning</h3>
-              <p class="project__description">
-                Utilizing Large language Models anlyze sentiment and reasoning in New Yorks city street views,
-                demonstrating the potential of AI to interpret human emotional responses to urban environments.
-              </p>
-  
-              <ul class="project__stack">
-                <li class="project__stack-item">     
-                <li class="stack-item"><strong> Tools:</strong>  Python </li>
-              </ul>
-  
-              <a
-                href="https://github.com/sujiatong/Final-project-MUSA-6950"
-                aria-label="source code"
-                class="link link--icon"
-              >
-                <i aria-hidden="true" class="fab fa-github"></i>
-              </a>
-            </div>
+            <a
+            href="https://github.com/sujiatong/Forecast_Metro_train_delays"
+            aria-label="source code"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+
+            <a
+            href="https://sujiatong.github.io/engagement_project/frontend/index.html"
+            aria-label="live preview"
+            class="link link--icon">
+
+
+
+          </div>
+          
+
+
+
+
 
             
         </div>
@@ -235,25 +257,59 @@
       <!-- Contact -->
       <section class="section contact center" id="contact">
         <h2 class="section__title">Contact</h2>
-        <a href="mailto:rjshekhar.official@gmail.com">
+        <a href="sujiatong23@gmail.com">
           <span class="btn btn--outline">Email me</span>
         </a>
       </section>
+
+
+      <section id="more-projects" class="section more-projects">
+        <h2 class="section__title">More Projects</h2>
+        <div class="project-cards">
+          <div class="project-card">
+            <a href="https://github.com/sujiatong/Final-project-MUSA-6950" target="_blank">
+              📷 <strong>LLMs for Sentiment & Image Reasoning</strong>
+            </a>
+          </div>
+          <div class="project-card">
+            <a href="https://sujiatong.github.io/story_map_project/jiatong_su/index.html" target="_blank">
+              🗺 <strong>Story Map: Metro LA ↔ DC</strong>
+            </a>
+          </div>
+          <div class="project-card">
+            <a href="https://sujiatong.github.io/ppa_upenn/ppa_final/PPA_midterm_Group%20Tong%20(2).html" target="_blank">
+              🏘 <strong>Predicting Housing Prices (Philly)</strong>
+            </a>
+          </div>
+          <div class="project-card">
+            <a href="https://sujiatong.github.io/ppa_upenn/hw5b/Su_Jiatong_HW5b.html" target="_blank">
+              🚲 <strong>Bike Share Prediction</strong>
+            </a>
+          </div>
+          <div class="project-card">
+            <a href="https://sujiatong.github.io/ppa_upenn/HW3/Su_JiatongHW3.html" target="_blank">
+              🌍 <strong>Geospatial Risk Prediction</strong>
+            </a>
+          </div>
+          <div class="project-card">
+            <a href="https://sujiatong.github.io/30DayMap-Jiatong/" target="_blank">
+              🗾 <strong>30-Day Map Challenge (10 maps)</strong>
+            </a>
+          </div>
+          <div class="project-card">
+            <a href="pdf/Final_GEOG115C_S23_Poster_Mathlouthi-Nava-Su.pdf" target="_blank">
+              🌊 <strong>Hurricane × Water Quality Poster</strong>
+            </a>
+          </div>
+        </div>
+      </section>
+      
+      
+
+      
     </main>
 
 
-    <section id="more-projects" class="section more-projects">
-      <h2 class="section__title">More Projects</h2>
-      <ul class="project-list cute-frame">
-        <li class="project-item"><a href="https://sujiatong.github.io/engagement_project/frontend/index.html" target="_blank" rel="noopener noreferrer">Historical world boundaries</a></li>
-        <li class="project-item"><a href="https://sujiatong.github.io/story_map_project/jiatong%20su/" target="_blank" rel="noopener noreferrer">Story Map of Metro between LA and DC</a></li>
-        <li class="project-item"><a href="https://sujiatong.github.io/ppa_upenn/ppa_final/PPA_midterm_Group%20Tong%20(2).html" target="_blank" rel="noopener noreferrer">Predicting Housing Prices in Philadelphia</a></li>
-        <li class="project-item"><a href="https://sujiatong.github.io/ppa_upenn/hw5b/Su_Jiatong_HW5b.html" target="_blank" rel="noopener noreferrer">Bike Share Prediction</a></li>
-        <li class="project-item"><a href="https://sujiatong.github.io/ppa_upenn/HW3/Su_JiatongHW3.html" target="_blank" rel="noopener noreferrer">Geospatial Risk Prediction</a></li>
-        <li class="project-item"><a href="https://sujiatong.github.io/30DayMap-Jiatong/" target="_blank" rel="noopener noreferrer">30-Day Map Challenge (10 maps completed)</a></li>
-        <li class="project-item"><a href="pdf/Final_GEOG115C_S23_Poster_Mathlouthi-Nava-Su.pdf" target="_blank" rel="noopener noreferrer">Hurricane Impact with Water Quality and Land Cover Change</a></li>
-      </ul>
-    </section>
     
     
     

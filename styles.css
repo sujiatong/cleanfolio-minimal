@@ -27,11 +27,11 @@ body {
 }
 
 .light {
-  --clr-bg: #fcfcfc;
-  --clr-bg-alt: #fff;
-  --clr-fg: #555;
-  --clr-fg-alt: #444;
-  --clr-primary: #1d5b8a;
+  --clr-bg: #f7f7f7;
+  --clr-bg-alt: #917f7f;
+  --clr-fg: #666161;
+  --clr-fg-alt: #413e3e;
+  --clr-primary: #14476e;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -540,9 +540,8 @@ main {
 .project-card a strong {
   font-size: 1.05rem;   /* 標題稍微大一點 */
   font-weight: 600;
-  color: #222;          /* 深色，主體 */
+  color: #20396f;          /* 深色，主體 */
 }
-
 
 
 }

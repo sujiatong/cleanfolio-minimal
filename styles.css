@@ -408,7 +408,7 @@ main {
 .project__stack-item {
   margin: 0.5em;
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   color: var(--clr-fg-alt);
 }
 
@@ -530,5 +530,19 @@ main {
   .scroll-container {
     display: none;
   }
+
+  /* ----- More Project Card Styling ----- */
+.project-card {
+  margin-bottom: 1.2rem;
+}
+
+/* Title styling */
+.project-card a strong {
+  font-size: 1.05rem;   /* 標題稍微大一點 */
+  font-weight: 600;
+  color: #222;          /* 深色，主體 */
+}
+
+
 
 }

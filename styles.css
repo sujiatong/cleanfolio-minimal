@@ -383,8 +383,8 @@ main {
 }
 
 .project__img {
-  width: 80%;
-  height: 300px; /* 統一高度 */
+  width: 85%;
+  height:400px; /* 統一高度 */
   object-fit: cover; /* 保留比例並裁切多餘部分 */
   border-radius: 8px; /* 圓角（可選） */
 }
@@ -520,7 +520,6 @@ main {
     box-shadow: 0 4px 10px inherit;
     background: inherit;
   }
-  
 
   .footer {
     padding: 2em;
@@ -543,5 +542,10 @@ main {
   color: #20396f;          /* 深色，主體 */
 }
 
+.about__education {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  line-height: 1.45;
+}
 
 }
